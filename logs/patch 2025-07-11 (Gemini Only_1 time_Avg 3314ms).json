@@ -1,0 +1,220 @@
+{
+  "patches": [
+    {
+      "timestamp": "2025-07-11T16:25:48.905Z",
+      "filename": "C:\\Projects.Study\\CompanyWebsiteSelfHealing\\functions\\generate_portfolio_a.js",
+      "errorType": "Reference error",
+      "errorMessage": "projectt is not defined",
+      "lineNumber": 27,
+      "recoveryTimeMs": 3586,
+      "patchStatus": "success",
+      "testResults": {
+        "passed": true,
+        "message": "All tests passed",
+        "tests": [
+          {
+            "passed": true,
+            "message": "Portfolio HTML generated successfully",
+            "function": "generatePortfolioHTML"
+          }
+        ]
+      },
+      "aiProvider": "gemini_2flash",
+      "backupCreated": true,
+      "patchApplied": true,
+      "errorDetails": null
+    },
+    {
+      "timestamp": "2025-07-11T16:26:26.633Z",
+      "filename": "C:\\Projects.Study\\CompanyWebsiteSelfHealing\\functions\\generate_portfolio_b.js",
+      "errorType": "Type error",
+      "errorMessage": "Cannot read properties of null (reading 'toString')",
+      "lineNumber": 28,
+      "recoveryTimeMs": 2901,
+      "patchStatus": "success",
+      "testResults": {
+        "passed": true,
+        "message": "All tests passed",
+        "tests": [
+          {
+            "passed": true,
+            "message": "Portfolio HTML generated successfully",
+            "function": "generatePortfolioHTML"
+          }
+        ]
+      },
+      "aiProvider": "gemini_2flash",
+      "backupCreated": true,
+      "patchApplied": true,
+      "errorDetails": null
+    },
+    {
+      "timestamp": "2025-07-11T16:28:40.141Z",
+      "filename": "C:\\Projects.Study\\CompanyWebsiteSelfHealing\\functions\\generate_portfolio_c.js",
+      "errorType": "Syntax error",
+      "errorMessage": "Unexpected token 'd', \"{\"settings\": data}\" is not valid JSON",
+      "lineNumber": 28,
+      "recoveryTimeMs": 3306,
+      "patchStatus": "success",
+      "testResults": {
+        "passed": true,
+        "message": "All tests passed",
+        "tests": [
+          {
+            "passed": true,
+            "message": "Portfolio HTML generated successfully",
+            "function": "generatePortfolioHTML"
+          }
+        ]
+      },
+      "aiProvider": "gemini_2flash",
+      "backupCreated": true,
+      "patchApplied": true,
+      "errorDetails": null
+    },
+    {
+      "timestamp": "2025-07-11T16:28:54.576Z",
+      "filename": "C:\\Projects.Study\\CompanyWebsiteSelfHealing\\functions\\generate_team_alpha.js",
+      "errorType": "Undefined properties",
+      "errorMessage": "Cannot read properties of undefined (reading 'substring')",
+      "lineNumber": 29,
+      "recoveryTimeMs": 4125,
+      "patchStatus": "success",
+      "testResults": {
+        "passed": true,
+        "message": "All tests passed",
+        "tests": [
+          {
+            "passed": true,
+            "message": "Team HTML generated successfully",
+            "function": "generateTeamHTML"
+          }
+        ]
+      },
+      "aiProvider": "gemini_2flash",
+      "backupCreated": true,
+      "patchApplied": true,
+      "errorDetails": null
+    },
+    {
+      "timestamp": "2025-07-11T16:29:07.631Z",
+      "filename": "C:\\Projects.Study\\CompanyWebsiteSelfHealing\\functions\\generate_team_beta.js",
+      "errorType": "Invalid function/type",
+      "errorMessage": "member.skills.count is not a function",
+      "lineNumber": 28,
+      "recoveryTimeMs": 2929,
+      "patchStatus": "success",
+      "testResults": {
+        "passed": true,
+        "message": "All tests passed",
+        "tests": [
+          {
+            "passed": true,
+            "message": "Team HTML generated successfully",
+            "function": "generateTeamHTML"
+          }
+        ]
+      },
+      "aiProvider": "gemini_2flash",
+      "backupCreated": true,
+      "patchApplied": true,
+      "errorDetails": null
+    },
+    {
+      "timestamp": "2025-07-11T16:29:18.249Z",
+      "filename": "C:\\Projects.Study\\CompanyWebsiteSelfHealing\\functions\\generate_team_gamma.js",
+      "errorType": "Array index/range",
+      "errorMessage": "Cannot read properties of undefined (reading 'length')",
+      "lineNumber": 28,
+      "recoveryTimeMs": 3015,
+      "patchStatus": "success",
+      "testResults": {
+        "passed": true,
+        "message": "All tests passed",
+        "tests": [
+          {
+            "passed": true,
+            "message": "Team HTML generated successfully",
+            "function": "generateTeamHTML"
+          }
+        ]
+      },
+      "aiProvider": "gemini_2flash",
+      "backupCreated": true,
+      "patchApplied": true,
+      "errorDetails": null
+    },
+    {
+      "timestamp": "2025-07-11T19:29:21.932Z",
+      "filename": "C:\\Projects.Study\\CompanyWebsiteSelfHealing\\functions\\generate_faq_alpha.js",
+      "errorType": "File system error",
+      "errorMessage": "Self-healing trigger: ENOENT: no such file or directory, open 'C:\\Projects.Study\\CompanyWebsiteSelfHealing\\README.mds'",
+      "lineNumber": 41,
+      "recoveryTimeMs": 3566,
+      "patchStatus": "success",
+      "testResults": {
+        "passed": true,
+        "message": "All tests passed",
+        "tests": [
+          {
+            "passed": true,
+            "message": "FAQ HTML generated successfully",
+            "function": "generateFAQHTML"
+          }
+        ]
+      },
+      "aiProvider": "gemini_2flash",
+      "backupCreated": true,
+      "patchApplied": true,
+      "errorDetails": null
+    },
+    {
+      "timestamp": "2025-07-11T19:36:04.081Z",
+      "filename": "C:\\Projects.Study\\CompanyWebsiteSelfHealing\\functions\\generate_faq_beta.js",
+      "errorType": "Range error",
+      "errorMessage": "Invalid count value: -3",
+      "lineNumber": 34,
+      "recoveryTimeMs": 3103,
+      "patchStatus": "success",
+      "testResults": {
+        "passed": true,
+        "message": "All tests passed",
+        "tests": [
+          {
+            "passed": true,
+            "message": "FAQ HTML generated successfully",
+            "function": "generateFAQHTML"
+          }
+        ]
+      },
+      "aiProvider": "gemini_2flash",
+      "backupCreated": true,
+      "patchApplied": true,
+      "errorDetails": null
+    },
+    {
+      "timestamp": "2025-07-11T19:36:13.005Z",
+      "filename": "C:\\Projects.Study\\CompanyWebsiteSelfHealing\\functions\\generate_faq_gamma.js",
+      "errorType": "URI error",
+      "errorMessage": "URI malformed",
+      "lineNumber": 34,
+      "recoveryTimeMs": 3297,
+      "patchStatus": "success",
+      "testResults": {
+        "passed": true,
+        "message": "All tests passed",
+        "tests": [
+          {
+            "passed": true,
+            "message": "FAQ HTML generated successfully",
+            "function": "generateFAQHTML"
+          }
+        ]
+      },
+      "aiProvider": "gemini_2flash",
+      "backupCreated": true,
+      "patchApplied": true,
+      "errorDetails": null
+    }
+  ]
+}

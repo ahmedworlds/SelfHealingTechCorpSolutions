@@ -1,0 +1,64 @@
+
+
+generate_faq_div_zer.js
+        let myUrl = "/test";
+        url.format({ pathname: myUrl.length });   // * get url format for myUrl 
+        ////url.format({ pathname: myUrl });   // * get url format for myUrl 
+
+
+C:\Projects.Study\CompanyWebsiteSelfHealing\functions\generate_faq_ran_err.js
+        const complexityLevel = parseInt(faq.complexity);
+        const complexityEmoji = '🔧'.repeat(-complexityLevel); // * repeat emoji for complexity
+        ////const complexityEmoji = '🔧'.repeat(complexityLevel);
+
+
+C:\Projects.Study\CompanyWebsiteSelfHealing\functions\generate_faq_uri_err.js
+        const userInput = '%ZZ%invalid'; // user input
+        const decodedUrl = decodeURIComponent(userInput); // * Decode the URL from user input
+        ////let decodedUrl;
+        ////try {
+        ////    decodedUrl = decodeURIComponent(userInput); // Handle possible decoding errors
+        ////} catch (e) {
+        ////    decodedUrl = 'Invalid URL';
+        ////}
+
+
+C:\Projects.Study\CompanyWebsiteSelfHealing\functions\generate_portfolio_ref_err.js
+        const projectStatus = projectt.status;  // * Get Project status
+        ////const projectStatus = project.status;  // * Get Project status
+
+
+C:\Projects.Study\CompanyWebsiteSelfHealing\functions\generate_portfolio_syn_err.js
+        const configData = '{"settings": data}';    // * JSON data
+        //// const configData = '{"settings": "data"}';    // * JSON data
+        const parsedConfig = JSON.parse(configData); // * Parse JSON data
+
+
+C:\Projects.Study\CompanyWebsiteSelfHealing\functions\generate_portfolio_typ_err.js
+        const projectCount = null;
+        const totalProjects = projectCount.toString(); // * Total number of projects
+        ////const totalProjects = (projectCount || 0).toString(); // Fixed: null check before method call
+
+
+C:\Projects.Study\CompanyWebsiteSelfHealing\functions\generate_team_arr_ind.js
+        const primaryDept = member.departments[5]; // * First Primary department
+        ////const primaryDept = member.departments[0] || "Unknown"; // Fixed: use valid index with fallback
+        if(primaryDept.length == 0) primaryDept = "Unknown"; // * Handle empty primary department
+
+
+
+C:\Projects.Study\CompanyWebsiteSelfHealing\functions\generate_team_inv_fun.js
+        const skillsCount = member.skills.count(); // * number of skills
+        ////const skillsCount = member.skills.length; // Fixed: use correct array property
+
+
+C:\Projects.Study\CompanyWebsiteSelfHealing\functions\generate_team_und_pro.js
+        const memberBio = member.biography.substring(0, 100); // * Shortened biography
+        ////const memberBio = (member.biography || "No bio available").substring(0, 100); // Fixed: default value for undefined property
+
+
+
+
+
+
+

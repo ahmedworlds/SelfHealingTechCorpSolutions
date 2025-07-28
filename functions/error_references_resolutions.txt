@@ -1,0 +1,83 @@
+# Error References and Resolutions
+# Self-Healing Web Application - MSc Research Project
+# Generated: July 5, 2025
+#
+# Format: folder/filename:line_number
+# faulty_code
+# corrected_code
+
+
+# Error Types:
+ReferenceError
+TypeError
+SyntaxError
+Division by Zero
+Undefined Property
+Invalid Function Call
+Eval Misuse
+Infinite Loop
+Array Index Error
+RangeError
+URIError 
+
+
+*ReferenceError
+functions/generate_portfolio_ref_err.js:28
+const projectStatus = projectt.status;
+const projectStatus = project.status; // Fixed: use existing project property
+
+*TypeError
+functions/generate_portfolio_typ_err.js:30
+const totalProjects = projectCount.toString(); // Intentional TypeError - calling method on undefined/null
+const totalProjects = (projectCount || 0).toString(); // Fixed: null check before method call
+
+*SyntaxError
+functions/generate_portfolio_syn_err.js:29
+const configData = '{"invalid": json syntax}'; // Intentional SyntaxError - invalid JSON parsing, Missing quotes around json
+const configData = '{"invalid": "json syntax"}'; // Fixed: proper JSON string format
+
+Undefined Property ???TypeError
+functions/generate_team_und_pro.js:30
+const memberBio = member.biography.substring(0, 100); // Intentional UndefinedProperty error - accessing undefined property biography property doesn't exist
+const memberBio = (member.biography || "No bio available").substring(0, 100); // Fixed: default value for undefined property
+
+Invalid Function Call ???TypeError
+functions/generate_team_inv_fun.js:29
+const skillsCount = member.skills.count(); // count() doesn't exist on arrays
+const skillsCount = member.skills.length; // Fixed: use correct array property
+
+Array Index Error ???no error
+functions/generate_team_arr_ind.js:29
+const primaryDept = member.departments[5]; // Index 5 doesn't exist (arrays have 0-2)
+const primaryDept = member.departments[0] || "Unknown"; // Fixed: use valid index with fallback
+
+Division by Zero ???TypeError
+functions/generate_faq_div_zer.js:30
+const totalVotes = 0; // This will cause Math.log(0) to throw
+const votePercentage = ((faq.votes / totalVotes) * 100).toFixed(); // Math.log(0) throws RangeError
+Fix:
+functions/generate_faq_div_zer.js:31
+const totalVotes = faqs.reduce((sum, f) => sum + f.votes, 0); // Fixed: calculate actual total
+const votePercentage = totalVotes > 0 ? (faq.votes / totalVotes) * 100 : 0; // Fixed: proper percentage calculation
+
+*RangeError
+functions/generate_faq_ran_err.js:30    // RangeError: Invalid count value
+const complexityEmoji = '🔧'.repeat(-complexityLevel); // * repeat emoji for complexity
+const complexityEmoji = '🔧'.repeat(complexityLevel); // Fixed: use positive number for repeat count
+
+*URIError
+functions/generate_faq_uri_err.js:35-36    // Invalid URL encoding characters
+const decodedUrl = decodeURIComponent(userInput); // * Decode the URL from user input
+let decodedUrl;
+try {
+    decodedUrl = decodeURIComponent(userInput); // Handle possible decoding errors
+} catch (e) {
+    decodedUrl = 'Invalid URL';
+}
+
+
+# Summary:
+# Total Errors: 11 intentional errors across 9 files
+# Error Types: ReferenceError (1), TypeError (1), SyntaxError (1), UndefinedProperty (1), 
+#              InvalidFunctionCall (1), ArrayIndexError (1), DivisionByZero (2), RangeError (1), RegExpError (1)
+# All errors are realistic and commonly found in JavaScript/Node.js applications

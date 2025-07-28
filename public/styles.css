@@ -1,0 +1,122 @@
+/* File: public/styles.css */
+
+/* Custom styles for TechCorp Solutions */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 3rem 0;
+    margin-bottom: 2rem;
+}
+
+.error-indicator {
+    border-left: 4px solid #dc3545;
+    padding-left: 1rem;
+    margin: 1rem 0;
+}
+
+.success-indicator {
+    border-left: 4px solid #28a745;
+    padding-left: 1rem;
+    margin: 1rem 0;
+}
+
+.loading-spinner {
+    display: none;
+    text-align: center;
+    padding: 2rem;
+}
+
+.project-card, .team-card, .faq-card {
+    margin-bottom: 1.5rem;
+}
+
+.status-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 0.8rem;
+}
+
+/* Enhanced Error Page Styles */
+.alert-danger {
+    border-left: 5px solid #dc3545;
+    background: linear-gradient(135deg, #f8d7da 0%, #f5c6cb 100%);
+}
+
+.alert-danger .alert-heading {
+    color: #721c24;
+}
+
+.badge {
+    font-size: 0.8em;
+    margin-right: 0.5rem;
+    margin-bottom: 0.3rem;
+}
+
+.card-header h5 {
+    margin-bottom: 0;
+    color: #495057;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+.btn-secondary:hover {
+    background-color: #5c636a;
+    border-color: #565e64;
+}
+
+/* Error page animations */
+.alert {
+    animation: slideIn 0.5s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card {
+    animation: fadeIn 0.7s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "healingEnabled": true,
+    "callAI": true,
+    "aiProvider": "gemini_2flash",
+    "port": 3000,
+    "apiUsageLimit": {
+        "maxCallsPerMinute": 2,
+        "maxCallsPerHour": 10,
+        "maxCallsPerDay": 50
+    },
+    "aiProviders": {
+        "gemini_2flash": "gemini-2.0-flash:generateContent",
+        "lms_claude_haiku": "oh-dcft-v3.1-claude-3-5-haiku-20241022",
+        "lms_claude_sonnet": "oh-dcft-v3.1-claude-3-5-sonnet-20241022",
+        "lms_mistral": "mistral-7b-instruct-v0.3"
+    },
+
+    "code_errorTypes": {
+        "generate_portfolio_a.js": "Reference error",
+        "generate_portfolio_b.js": "Type error",
+        "generate_portfolio_c.js": "Syntax error",
+
+        "generate_team_alpha.js": "Undefined properties",
+        "generate_team_beta.js": "Invalid function/type",
+        "generate_team_gamma.js": "Array index/range",
+
+        "generate_faq_alpha.js": "File system error",
+        "generate_faq_beta.js": "Range error",
+        "generate_faq_gamma.js": "URI error"
+    },
+
+    "errorTypes": [
+        "Reference error",
+        "Type error",
+        "Syntax error",
+
+         "Undefined properties",
+        "Invalid function/type",
+        "Array index/range",
+
+        "File system error",
+        "Range error",
+        "URI error"
+    ]
+
+}
