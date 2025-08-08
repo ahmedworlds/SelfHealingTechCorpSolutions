@@ -5016,3 +5016,120 @@ ReferenceError: projectt is not defined
     at C:\Projects.Study\CompanyWebsiteSelfHealing\node_modules\express\lib\router\index.js:284:15
     at Function.process_params (C:\Projects.Study\CompanyWebsiteSelfHealing\node_modules\express\lib\router\index.js:346:12)
 ---
+2025-07-29T23:06:16.044Z - projectt is not defined
+ReferenceError: projectt is not defined
+    at C:\Projects.Study\SelfHealingTechCorpSolutions\functions\generate_portfolio_a.js:29:35
+    at Array.forEach (<anonymous>)
+    at generatePortfolioHTML (C:\Projects.Study\SelfHealingTechCorpSolutions\functions\generate_portfolio_a.js:27:14)
+    at C:\Projects.Study\SelfHealingTechCorpSolutions\routes\portfolio_a.js:24:15
+    at Layer.handle [as handle_request] (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\index.js:346:12)
+---
+2025-07-29T23:57:44.368Z - projectt is not defined
+ReferenceError: projectt is not defined
+    at C:\Projects.Study\SelfHealingTechCorpSolutions\functions\generate_portfolio_a.js:29:35
+    at Array.forEach (<anonymous>)
+    at generatePortfolioHTML (C:\Projects.Study\SelfHealingTechCorpSolutions\functions\generate_portfolio_a.js:27:14)
+    at C:\Projects.Study\SelfHealingTechCorpSolutions\routes\portfolio_a.js:24:15
+    at Layer.handle [as handle_request] (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\index.js:346:12)
+---
+2025-07-30T16:39:34.367Z - projectt is not defined
+ReferenceError: projectt is not defined
+    at C:\Projects.Study\SelfHealingTechCorpSolutions\functions\generate_portfolio_a.js:29:35
+    at Array.forEach (<anonymous>)
+    at generatePortfolioHTML (C:\Projects.Study\SelfHealingTechCorpSolutions\functions\generate_portfolio_a.js:27:14)
+    at C:\Projects.Study\SelfHealingTechCorpSolutions\routes\portfolio_a.js:24:15
+    at Layer.handle [as handle_request] (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\index.js:346:12)
+---
+2025-07-30T17:30:02.092Z - projectt is not defined
+ReferenceError: projectt is not defined
+    at C:\Projects.Study\SelfHealingTechCorpSolutions\functions\generate_portfolio_a.js:29:35
+    at Array.forEach (<anonymous>)
+    at generatePortfolioHTML (C:\Projects.Study\SelfHealingTechCorpSolutions\functions\generate_portfolio_a.js:27:14)
+    at C:\Projects.Study\SelfHealingTechCorpSolutions\routes\portfolio_a.js:24:15
+    at Layer.handle [as handle_request] (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\index.js:346:12)
+---
+2025-07-30T17:30:33.720Z - projectt is not defined
+ReferenceError: projectt is not defined
+    at C:\Projects.Study\SelfHealingTechCorpSolutions\functions\generate_portfolio_a.js:29:35
+    at Array.forEach (<anonymous>)
+    at generatePortfolioHTML (C:\Projects.Study\SelfHealingTechCorpSolutions\functions\generate_portfolio_a.js:27:14)
+    at C:\Projects.Study\SelfHealingTechCorpSolutions\routes\portfolio_a.js:24:15
+    at Layer.handle [as handle_request] (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\index.js:346:12)
+---
+2025-07-30T17:30:52.562Z - projectt is not defined
+ReferenceError: projectt is not defined
+    at C:\Projects.Study\SelfHealingTechCorpSolutions\functions\generate_portfolio_a.js:29:35
+    at Array.forEach (<anonymous>)
+    at generatePortfolioHTML (C:\Projects.Study\SelfHealingTechCorpSolutions\functions\generate_portfolio_a.js:27:14)
+    at C:\Projects.Study\SelfHealingTechCorpSolutions\routes\portfolio_a.js:24:15
+    at Layer.handle [as handle_request] (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\index.js:346:12)
+---
+2025-07-30T17:32:49.037Z - projectt is not defined
+ReferenceError: projectt is not defined
+    at C:\Projects.Study\SelfHealingTechCorpSolutions\functions\generate_portfolio_a.js:29:35
+    at Array.forEach (<anonymous>)
+    at generatePortfolioHTML (C:\Projects.Study\SelfHealingTechCorpSolutions\functions\generate_portfolio_a.js:27:14)
+    at C:\Projects.Study\SelfHealingTechCorpSolutions\routes\portfolio_a.js:24:15
+    at Layer.handle [as handle_request] (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\index.js:346:12)
+---
+2025-07-30T17:33:00.602Z - projectt is not defined
+ReferenceError: projectt is not defined
+    at C:\Projects.Study\SelfHealingTechCorpSolutions\functions\generate_portfolio_a.js:29:35
+    at Array.forEach (<anonymous>)
+    at generatePortfolioHTML (C:\Projects.Study\SelfHealingTechCorpSolutions\functions\generate_portfolio_a.js:27:14)
+    at C:\Projects.Study\SelfHealingTechCorpSolutions\routes\portfolio_a.js:24:15
+    at Layer.handle [as handle_request] (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\index.js:346:12)
+---
+2025-07-30T17:34:23.593Z - Cannot read properties of null (reading 'toString')
+TypeError: Cannot read properties of null (reading 'toString')
+    at C:\Projects.Study\SelfHealingTechCorpSolutions\functions\generate_portfolio_b.js:31:48
+    at Array.forEach (<anonymous>)
+    at generatePortfolioHTML (C:\Projects.Study\SelfHealingTechCorpSolutions\functions\generate_portfolio_b.js:28:14)
+    at C:\Projects.Study\SelfHealingTechCorpSolutions\routes\portfolio_b.js:24:15
+    at Layer.handle [as handle_request] (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Projects.Study\SelfHealingTechCorpSolutions\node_modules\express\lib\router\index.js:346:12)
+---

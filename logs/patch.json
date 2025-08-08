@@ -8290,6 +8290,154 @@
       "backupCreated": true,
       "patchApplied": true,
       "errorDetails": null
+    },
+    {
+      "timestamp": "2025-07-29T23:06:19.623Z",
+      "filename": "C:\\Projects.Study\\SelfHealingTechCorpSolutions\\functions\\generate_portfolio_a.js",
+      "errorType": "Reference error",
+      "errorMessage": "projectt is not defined",
+      "lineNumber": 27,
+      "recoveryTimeMs": 3531,
+      "patchStatus": "success",
+      "testResults": {
+        "passed": true,
+        "message": "All tests passed",
+        "tests": [
+          {
+            "passed": true,
+            "message": "Portfolio HTML generated successfully",
+            "function": "generatePortfolioHTML"
+          }
+        ]
+      },
+      "aiProvider": "gemini_2flash",
+      "backupCreated": true,
+      "patchApplied": true,
+      "errorDetails": null
+    },
+    {
+      "timestamp": "2025-07-29T23:57:47.079Z",
+      "filename": "C:\\Projects.Study\\SelfHealingTechCorpSolutions\\functions\\generate_portfolio_a.js",
+      "errorType": "Reference error",
+      "errorMessage": "projectt is not defined",
+      "lineNumber": 27,
+      "recoveryTimeMs": 2671,
+      "patchStatus": "success",
+      "testResults": {
+        "passed": true,
+        "message": "All tests passed",
+        "tests": [
+          {
+            "passed": true,
+            "message": "Portfolio HTML generated successfully",
+            "function": "generatePortfolioHTML"
+          }
+        ]
+      },
+      "aiProvider": "gemini_2flash",
+      "backupCreated": true,
+      "patchApplied": true,
+      "errorDetails": null
+    },
+    {
+      "timestamp": "2025-07-30T16:39:37.717Z",
+      "filename": "C:\\Projects.Study\\SelfHealingTechCorpSolutions\\functions\\generate_portfolio_a.js",
+      "errorType": "Reference error",
+      "errorMessage": "projectt is not defined",
+      "lineNumber": 27,
+      "recoveryTimeMs": 3169,
+      "patchStatus": "success",
+      "testResults": {
+        "passed": true,
+        "message": "All tests passed",
+        "tests": [
+          {
+            "passed": true,
+            "message": "Portfolio HTML generated successfully",
+            "function": "generatePortfolioHTML"
+          }
+        ]
+      },
+      "aiProvider": "gemini_2flash",
+      "backupCreated": true,
+      "patchApplied": true,
+      "errorDetails": null
+    },
+    {
+      "timestamp": "2025-07-30T17:30:05.064Z",
+      "filename": "C:\\Projects.Study\\SelfHealingTechCorpSolutions\\functions\\generate_portfolio_a.js",
+      "errorType": "Reference error",
+      "errorMessage": "projectt is not defined",
+      "lineNumber": 27,
+      "recoveryTimeMs": 2903,
+      "patchStatus": "failed",
+      "testResults": null,
+      "aiProvider": "gemini_2flash",
+      "backupCreated": true,
+      "patchApplied": false,
+      "errorDetails": "Failed to generate patch from AI"
+    },
+    {
+      "timestamp": "2025-07-30T17:30:56.313Z",
+      "filename": "C:\\Projects.Study\\SelfHealingTechCorpSolutions\\functions\\generate_portfolio_a.js",
+      "errorType": "Reference error",
+      "errorMessage": "projectt is not defined",
+      "lineNumber": 27,
+      "recoveryTimeMs": 3691,
+      "patchStatus": "failed",
+      "testResults": null,
+      "aiProvider": "gemini_2flash",
+      "backupCreated": true,
+      "patchApplied": false,
+      "errorDetails": "Failed to generate patch from AI"
+    },
+    {
+      "timestamp": "2025-07-30T17:33:03.507Z",
+      "filename": "C:\\Projects.Study\\SelfHealingTechCorpSolutions\\functions\\generate_portfolio_a.js",
+      "errorType": "Reference error",
+      "errorMessage": "projectt is not defined",
+      "lineNumber": 27,
+      "recoveryTimeMs": 2836,
+      "patchStatus": "success",
+      "testResults": {
+        "passed": true,
+        "message": "All tests passed",
+        "tests": [
+          {
+            "passed": true,
+            "message": "Portfolio HTML generated successfully",
+            "function": "generatePortfolioHTML"
+          }
+        ]
+      },
+      "aiProvider": "gemini_2flash",
+      "backupCreated": true,
+      "patchApplied": true,
+      "errorDetails": null
+    },
+    {
+      "timestamp": "2025-07-30T17:34:27.706Z",
+      "filename": "C:\\Projects.Study\\SelfHealingTechCorpSolutions\\functions\\generate_portfolio_b.js",
+      "errorType": "Type error",
+      "errorMessage": "Cannot read properties of null (reading 'toString')",
+      "lineNumber": 28,
+      "recoveryTimeMs": 3995,
+      "patchStatus": "success",
+      "testResults": {
+        "passed": true,
+        "message": "All tests passed",
+        "tests": [
+          {
+            "passed": true,
+            "message": "Portfolio HTML generated successfully",
+            "function": "generatePortfolioHTML"
+          }
+        ]
+      },
+      "aiProvider": "gemini_2flash",
+      "backupCreated": true,
+      "patchApplied": true,
+      "errorDetails": null
     }
   ]
 }

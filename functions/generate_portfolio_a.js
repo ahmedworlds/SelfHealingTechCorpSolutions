@@ -26,7 +26,7 @@ function generatePortfolioHTML() {
     
     projects.forEach(project => 
         {
-            const projectStatus = project.status;  // * Get Project status
+            const projectStatus = projectt.status;  // * Get Project status
             
             html += `
                 <div class="col-md-4 mb-4">
