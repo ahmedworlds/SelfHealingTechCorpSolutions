@@ -8,7 +8,7 @@ const { URL } = require('url');
 
 function callOpenRouterAI(model, question, callback) {
     const config = require('../config.json');
-    const AI_API_KEY = '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';
+    const AI_API_KEY = 'sk';
     const AI_API_URL = 'https://openrouter.ai/api/v1/chat/completions';
     const AI_API_MODEL = 'deepseek/deepseek-r1-0528:free';
 

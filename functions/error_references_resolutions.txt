@@ -1,25 +1,3 @@
-# Error References and Resolutions
-# Self-Healing Web Application - MSc Research Project
-# Generated: July 5, 2025
-#
-# Format: folder/filename:line_number
-# faulty_code
-# corrected_code
-
-
-# Error Types:
-ReferenceError
-TypeError
-SyntaxError
-Division by Zero
-Undefined Property
-Invalid Function Call
-Eval Misuse
-Infinite Loop
-Array Index Error
-RangeError
-URIError 
-
 
 *ReferenceError
 functions/generate_portfolio_ref_err.js:28
